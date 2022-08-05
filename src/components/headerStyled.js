@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Headers = styled.header`
+    position: relative;
     background-color: #B22222;
     width: 100%;
     height: 70px;
@@ -10,7 +11,6 @@ const Headers = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     .header__logoContainer {
         color: #fff;
         border-left: 5px solid #fff ;
@@ -70,7 +70,9 @@ const Headers = styled.header`
     .header__btnMenu.open .menuBtn__burger::after {
         transform: rotate(-45deg) translate(35px, 35px);
     }
-    
+    .openMenu {
+        display: block ;
+    } 
 `
 
 export default Headers;
