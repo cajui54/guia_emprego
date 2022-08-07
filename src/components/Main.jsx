@@ -7,6 +7,7 @@ const Main = () => {
         {name: 'Vigel', path: 'https://vigelserv.com.br/web/'},
         {name: 'Rheferência', path: 'http://www.rheferencia.com.br/'},
         {name: 'GMS', path: 'https://gmsservicos.com.br/'},
+        {name: 'O Amarelinho', path: 'https://noticias.oamarelinho.com.br/category/guia-de-empregos/'},
         {name: 'Global', path: 'https://www.globalempregos.com.br/'},
         {name: 'Vagas', path: 'https://www.vagas.com.br/'},
         {name: 'InfoJobs', path: 'https://www.infojobs.com.br/'},
