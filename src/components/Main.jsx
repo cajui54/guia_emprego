@@ -6,6 +6,7 @@ const Main = () => {
     const companys = [
         {name: 'Vigel', path: 'https://vigelserv.com.br/web/'},
         {name: 'Rheferência', path: 'http://www.rheferencia.com.br/'},
+        {name: 'GMS', path: 'https://gmsservicos.com.br/'},
         {name: 'Global', path: 'https://www.globalempregos.com.br/'},
         {name: 'Vagas', path: 'https://www.vagas.com.br/'},
         {name: 'InfoJobs', path: 'https://www.infojobs.com.br/'},
@@ -17,7 +18,7 @@ const Main = () => {
             <div className='container-titles'>
                 <img src={logo} alt='mulher trabalhando'/>
                 <h1>Agências de Empregos</h1>
-                <p>Guia de Empregos que direciona para agencias de empregos, Links abaixo:</p>
+                <p>Guia de Empregos que direciona para agências de empregos, Links abaixo:</p>
             </div>
 
             <dl>

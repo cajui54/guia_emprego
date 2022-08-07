@@ -28,6 +28,7 @@ const MainStyled = styled.main`
     dl {
         margin: 30px auto;
         width: 80%;
+        overflow: hidden;
     }
     dl dt {
         background-color: #B22222;

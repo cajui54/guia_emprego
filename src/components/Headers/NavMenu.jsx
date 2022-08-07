@@ -8,7 +8,7 @@ const NavMenu = () => {
         <li><a href='#'>Início</a></li>
         <li><a href='#'>Empregos</a></li>
         <li><a href='#'>Mais Informações</a></li>
-        <li><a href='#'>Anúcios</a></li>
+        <li><a href='#'>Anúncios</a></li>
         <li><a href='#'>Contatos</a></li>
       </ul>
     </Menu>
