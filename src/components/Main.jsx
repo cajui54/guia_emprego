@@ -1,6 +1,7 @@
 import React from 'react'
 import MainStyled from './mainStyled'
-import logo from '../imgs/draw.png'
+import logoImg from '../imgs/draw.png'
+import Weather from './Main/Weather'
 
 const Main = () => {
     const companys = [
@@ -15,22 +16,25 @@ const Main = () => {
     ];
   return (
     <MainStyled>
+        
         <section>
             <div className='container-titles'>
-                <img src={logo} alt='mulher trabalhando'/>
-                <h1>Agências de Empregos</h1>
-                <p>Guia de Empregos que direciona para agências de empregos, Links abaixo:</p>
+                <img src={logoImg} alt='mulher trabalhando'/>
+                <div>
+                    <h1>Agências de Empregos</h1>
+                    <p>Guia de Empregos que direciona para agências de empregos, Links abaixo:</p>
+                </div>
             </div>
 
             <dl>
                 {
                     companys.map((company, index) => (
-                        <>
-                            <dt key={index}>{company.name}</dt>
+                        <div key={index}>
+                            <dt >{company.name}</dt>
                             <dd>
                                 <a href={company.path} target="_blank" rel="noreferrer">{company.path}</a>
                             </dd>
-                        </>
+                        </div>
                     ))
                 }
 

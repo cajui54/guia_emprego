@@ -72,7 +72,14 @@ const Headers = styled.header`
     }
     .openMenu {
         display: block ;
-    } 
+    }
+
+    @media screen and (min-width: 700px) {
+        display: flex;
+        .header__btnMenu {
+            display: none ;
+        }
+    }
 `
 
 export default Headers;

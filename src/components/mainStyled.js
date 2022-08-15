@@ -47,6 +47,30 @@ const MainStyled = styled.main`
         text-decoration: none;
         overflow: hidden;
     }
+    @media screen and (min-width: 700px) {
+
+        .container-titles {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container-titles img{
+            width: 30%;
+            height: 100%;
+        }
+        .container-titles div {
+            width: 30%;
+            margin-right: 250px;
+        }
+        .container-titles div h1 {
+            text-align: left;
+        }
+        dl {
+            width: 500px;
+        }
+    }
 `
 
 export default MainStyled;
