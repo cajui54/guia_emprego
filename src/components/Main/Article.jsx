@@ -12,7 +12,7 @@ const Article = () => {
 
 
         <p>
-            Da Microsoft, o         <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>
+            Da Microsoft, o <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>
             é a principal rede social quando se pensa em vagas de emprego ou networking. Oportunidades podem ser publicadas diretamente pela plataforma, mas vale ficar atento às postagens de outros usuários por lá, quais podem indicar uma nova   posição aberta na empresa em que trabalham.
         </p>
      </section>
@@ -22,9 +22,7 @@ const Article = () => {
         <h3>2. beBee</h3>
 
         <p>
-            Similar ao LinkedIn, a 
-        <a href="https://www.bebee.com/"        target="_blank">bebee.com</a>
-            bebee.com se define como uma rede de marca pessoal, para que profissionais de promovam diante de recrutadores e também criem uma rede de contatos. Há o chamado “colmeias”, quais funcionam como comunidades e nichos para reunir usuários em um mesmo assunto ou categoria. Apesar do aspecto social, vagas também podem ser encontradas publicadas na beBee.
+            Similar ao LinkedIn, a <a href="https://www.bebee.com/" target="_blank">bebee.com</a> se define como uma rede de marca pessoal, para que profissionais de promovam diante de recrutadores e também criem uma rede de contatos. Há o chamado “colmeias”, quais funcionam como comunidades e nichos para reunir usuários em um mesmo assunto ou categoria. Apesar do aspecto social, vagas também podem ser encontradas publicadas na beBee.
         </p>
      </section>
 
