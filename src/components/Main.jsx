@@ -14,6 +14,7 @@ const Main = () => {
         {name: 'Vagas', path: 'https://www.vagas.com.br/'},
         {name: 'InfoJobs', path: 'https://www.infojobs.com.br/'},
         {name: 'Nube', path: 'https://www.nube.com.br/'},
+        {name: 'Empregos.com.br', path: 'https://www.empregos.com.br/?Origem=L532&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE1bi_eVkrZ3D_iQUk4KLkXW-XiFiYijXAHaAAPKtf64Xi1IRbUZfrcaAmr7EALw_wcB'},
     ];
   return (
     <MainStyled>

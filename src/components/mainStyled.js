@@ -51,24 +51,35 @@ const MainStyled = styled.main`
 
         .container-titles {
             width: 100%;
-            height: 300px;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
+            min-height: 350px;
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
         .container-titles img{
-            width: 30%;
+            width: 40%;
             height: 100%;
+            margin: 0 20px;
         }
         .container-titles div {
-            width: 30%;
-            margin-right: 250px;
+            width: 70%;
+            margin-top: 50px;
+            text-align: center;
         }
         .container-titles div h1 {
-            text-align: left;
+            text-align: center;
+            margin: 20px 0;
         }
+    
         dl {
             width: 500px;
+        }
+    }
+    @media screen and (min-width: 1000px) {
+        .container-titles img { 
+            width: 20%;
         }
     }
 `

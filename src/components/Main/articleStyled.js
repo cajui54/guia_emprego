@@ -17,6 +17,9 @@ const Articles = styled.article`
         line-height: 25px;
         margin: 20px 0;
     }
+    @media screen and (min-width: 700px) {
+        width: 50%;
+    }
 
 `
 export default Articles;
