@@ -13,38 +13,39 @@ const Menu = styled.nav`
         width: 100%;
         height: 100%;
         text-align: center;
-        font-weight: bold;
+        
     }
     ul li {
+        text-align: center;
         padding: 30px 0;
         font-size: 20px;
     }
     ul li a {
-        color: #B22222;
+        font-weight: bold;
+        color: red;
         text-decoration: none ;
         font-family: sans-serif, Arial, Helvetica;
     }
     @media screen and (min-width: 700px) {
-        display: flex;
-        
-        background-color: transparent;
-        height: auto;
-        transform: translateY(0);
+        display: block ;
         width: 70%;
-        margin-left: 200px;
+        background-color: transparent;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            height: 80px;
+            margin-top: -80px;
+            margin-left: 200px;
+            
+        }
+        ul li a {
+            color: #fff;
+        }
     }
-    ul {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        
-    }
-    ul li a {
-        color: #fff;
-        font-size: 17px;
-    }
-    @media screen and (min-width: 900px) {
-        margin-left: 350px;
+    @media screen and (min-width: 1000px) { 
+        ul {
+            margin-left: 350px;
+        }
     }
 
 `

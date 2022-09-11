@@ -2,6 +2,7 @@ import React from 'react'
 import MainStyled from './mainStyled'
 import logoImg from '../imgs/draw.png'
 import Weather from './Main/Weather'
+import Article from './Main/Article'
 
 const Main = () => {
     const companys = [
@@ -40,7 +41,7 @@ const Main = () => {
 
             </dl>
         </section>
-
+        <Article/>
 
     </MainStyled>
   )
