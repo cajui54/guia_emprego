@@ -8,6 +8,7 @@ const Menu = styled.nav`
     width: 97%;
     height: 580px;
     display: none;
+    z-index: 5;
     ul {
         list-style: none;
         width: 100%;

@@ -4,7 +4,11 @@ const MainStyled = styled.main`
     width: 98%;
     min-height: 500px;
     margin: 50px auto;
-
+    
+    .container-bonus {
+        padding: 20px;
+        transform: translateY(40px);
+    }
     .container-titles {
         width: 90%;
         margin: 5px auto;

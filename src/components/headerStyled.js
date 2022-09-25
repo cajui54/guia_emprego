@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const Headers = styled.header`
-    position: relative;
+    position: fixed;
+    top: 0;
     background-color: #B22222;
     width: 100%;
     height: 70px;
@@ -11,6 +12,7 @@ const Headers = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 5;
     .header__logoContainer {
         color: #fff;
         border-left: 5px solid #fff ;

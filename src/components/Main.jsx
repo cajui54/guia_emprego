@@ -1,8 +1,8 @@
-import React from 'react'
-import MainStyled from './mainStyled'
-import logoImg from '../imgs/draw.png'
-import Weather from './Main/Weather'
-import Article from './Main/Article'
+import React from 'react';
+import MainStyled from './mainStyled';
+import logoImg from '../imgs/draw.png';
+import Article from './Main/Article';
+import Weather from './Weather/Weather'
 
 const Main = () => {
     const companys = [
@@ -18,6 +18,9 @@ const Main = () => {
     ];
   return (
     <MainStyled>
+        <section className='container-bonus'>
+            <Weather city='maua'/>
+        </section>
         
         <section>
             <div className='container-titles'>
