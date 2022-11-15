@@ -4,7 +4,6 @@ const MainStyled = styled.main`
     width: 98%;
     min-height: 500px;
     margin: 50px auto;
-    
     .container-bonus {
         padding: 20px;
         transform: translateY(40px);
@@ -46,10 +45,11 @@ const MainStyled = styled.main`
     }
     dl dd {
         font-size: 20px;
+
+        padding: 10px;
     }
     dl dd a {
-        text-decoration: none;
-        overflow: hidden;
+        cursor: pointer;
     }
     @media screen and (min-width: 700px) {
 
@@ -61,6 +61,7 @@ const MainStyled = styled.main`
             min-height: 350px;
             margin-top: 50px;
             margin-bottom: 50px;
+
         }
         .container-titles img{
             width: 40%;
@@ -84,6 +85,7 @@ const MainStyled = styled.main`
     @media screen and (min-width: 1000px) {
         .container-titles img { 
             width: 20%;
+            background-color: red;
         }
     }
 `

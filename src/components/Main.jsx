@@ -19,7 +19,7 @@ const Main = () => {
   return (
     <MainStyled>
         <section className='container-bonus'>
-            <Weather city='santo andre'/>
+            <Weather city='santo andre '/>
         </section>
         
         <section>

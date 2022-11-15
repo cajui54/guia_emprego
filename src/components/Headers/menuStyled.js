@@ -30,12 +30,15 @@ const Menu = styled.nav`
     @media screen and (min-width: 700px) {
         display: block ;
         width: 70%;
+        height: 80px;
+        position: relative;
+        top: -330px;
+        right: 250px;
         background-color: transparent;
         ul {
             display: flex;
             justify-content: space-between;
             height: 80px;
-            margin-top: -80px;
             margin-left: 200px;
             
         }
