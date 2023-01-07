@@ -17,9 +17,20 @@ const Footers = styled.footer`
         display: flex;
         justify-content: space-between;
     }
+    ul span {
+        font-size: 18px;
+    }
+    ul i {
+        margin: 10px;
+    }
+    ul li {
+        width: 100%;
+        text-align: center;
+    }
     ul a {
         color: #fff;
         font-size: 25px;
+        text-decoration: none;
     }
 `
 export default Footers;

@@ -6,7 +6,11 @@ import Weather from './Weather/Weather'
 
 const Main = () => {
     const companys = [
-        {name: 'Vigel', path: 'https://vigelserv.com.br/web/'},
+        {name: 'Vigel', path: 'https://vigelserv.com.br/web/candidato.php'},
+        {name: 'Alenaça Empregos', path: 'https://www.aliancaempregos.com.br/'},
+        {name: 'Job Center', path: 'https://www.jobcenter.com.br/'},
+        {name: 'Luandre', path: 'https://luandre.com.br/'},
+        {name: 'Sprinter', path: 'https://sprinter.tweezer.jobs/candidato/vaga/buscar_vaga/'},
         {name: 'Rheferência', path: 'http://www.rheferencia.com.br/'},
         {name: 'GMS', path: 'https://gmsservicos.com.br/'},
         {name: 'O Amarelinho', path: 'https://noticias.oamarelinho.com.br/category/guia-de-empregos/'},
