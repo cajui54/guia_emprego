@@ -27,6 +27,15 @@ const Articles = () => {
 
             Também há um comparador de salários, o qual exibe um máximo e mínimo para um determinado cargo. Os dados são fornecidos por terceiros ao Indeed e são “aproximados”, de acordo com a plataforma. Pode ser uma ferramenta para negociação na hora da contratação</p>
         </section>
+
+        <section>
+            <h2>Em busca de uma nova recolocação de empregos?</h2>
+            <p>
+                Como voltar ao mercado de trabalho após uma longa pausa na carreira? Independente dos motivos que te levaram a ficar afastado do mercado de trabalho, isso não desmerece a sua trajetória profissional e experiências!
+                É possível sim retomar a carreira, se recolocar no mercado, mas para isso devemos primeiro trabalhar nosso autoconhecimento profissional, alinhando nossas experiências e competências as oportunidades de trabalho.
+                No vídeo de hoje, vou ajudá-los a identificar quais as principais dificuldades para voltar ao mercado, como trabalhar o autoconhecimento profissional e fazer conexões para conseguir uma recolocação profissional.
+            </p>
+        </section>
     </ArticleStyled>
   )
 }

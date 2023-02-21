@@ -37,14 +37,18 @@ const WeatherStyled = styled.div`
 
     /* Show datas Weather */
     .container-weather {
-        margin-top: 20px;
+        margin-top: 0px;
         box-sizing: border-box;
+    }
+    marquee {
+        padding: 25px 0;
     }
     .container-weather ul {
         display: flex;
         list-style: none;
         justify-content: space-around;
         align-items: center;
+        color: #000;
     }
     .container-weather li {
         position: relative;

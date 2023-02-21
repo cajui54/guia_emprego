@@ -46,36 +46,38 @@ const Weather = () => {
       <div className="container-weather">
        {
         checkCity(weather) && (
-          <ul>
-            <li>
-                <ReactCountryFlag countryCode={weather.sys.country} svg/>
-                <i className="fa-solid fa-location-dot"></i>
-                <span>{weather.name}</span>
-                
-              </li>
-
+          <marquee behavior="" direction="left">
+            <ul>
               <li>
-                <span>{parseInt(weather.main.temp)}</span>&deg;C
-              </li>
+                  <ReactCountryFlag countryCode={weather.sys.country} svg/>
+                  <i className="fa-solid fa-location-dot"></i>
+                  <span>{weather.name}</span>
+                  
+                </li>
 
-              <li>
-                <img src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`} alt="" />
-                <span>{weather.weather[0].description}</span>
-              </li>
+                <li>
+                  <span>{parseInt(weather.main.temp)}</span>&deg;C
+                </li>
 
-              <li>
-                <div>
-                  <i className="fa-solid fa-droplet"></i>
-                  <span>{weather.main.humidity}%</span>
-                </div>
+                <li>
+                  <img src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`} alt="" />
+                  <span>{weather.weather[0].description}</span>
+                </li>
 
-                
-                <div>
-                  <i className="fa-solid fa-wind"></i>
-                  <span>{weather.wind.speed} km/h</span>
-                </div>
-              </li>
-          </ul>
+                <li>
+                  <div>
+                    <i className="fa-solid fa-droplet"></i>
+                    <span>{weather.main.humidity}%</span>
+                  </div>
+
+                  
+                  <div>
+                    <i className="fa-solid fa-wind"></i>
+                    <span>{weather.wind.speed} km/h</span>
+                  </div>
+                </li>
+            </ul>
+          </marquee>
         )
        }
       </div>
