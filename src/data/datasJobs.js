@@ -2,7 +2,6 @@ import React from 'react'
 
 const datasJobs = () => {
     const datas = [
-        {name: 'Vigel', site: 'www.vigel.com.br', path: 'https://vigelserv.com.br/web/candidato.php'},
         {name: 'Aliança Empregos', site: 'https://www.aliancaempregos.com.br/', path: 'https://www.aliancaempregos.com.br/'},
         {name: 'Global', site: 'https://www.globalempregos.com.br/', path: 'https://www.globalempregos.com.br/'},
         {name: 'Job Center', site: 'https://www.jobcenter.com.br/', path: 'https://www.jobcenter.com.br/'},
@@ -15,9 +14,7 @@ const datasJobs = () => {
         {name: 'InfoJobs', site: 'https://www.infojobs.com.br/', path: 'https://www.infojobs.com.br/'},
         {name: 'Nube', site: 'https://www.nube.com.br/', path: 'https://www.nube.com.br/'},
         {name: 'Empregos.com.br', site: 'https://www.empregos.com.br/', path: 'https://www.empregos.com.br/?Origem=L532&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE1bi_eVkrZ3D_iQUk4KLkXW-XiFiYijXAHaAAPKtf64Xi1IRbUZfrcaAmr7EALw_wcB'},
-        {name: 'Talent', site: 'https://talent.recrutei.com.br', path: 'https://talent.recrutei.com.br/netlinks/22896/signup'},
-
-        
+        {name: 'Talent', site: 'https://talent.recrutei.com.br', path: 'https://talent.recrutei.com.br/netlinks/22896/signup'},   
     ]
 
     return {datas}
