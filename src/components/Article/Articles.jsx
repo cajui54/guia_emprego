@@ -1,9 +1,9 @@
 import React from 'react'
-import ArticleStyled from './ArticleStyled'
+import Article from './Article.style'
 
 const Articles = () => {
   return (
-    <ArticleStyled>
+    <Article>
         <h1>
             <span>Redes Sociais para encontrar vagas de emprego.</span>
         </h1>
@@ -36,7 +36,7 @@ const Articles = () => {
                 No vídeo de hoje, vou ajudá-los a identificar quais as principais dificuldades para voltar ao mercado, como trabalhar o autoconhecimento profissional e fazer conexões para conseguir uma recolocação profissional.
             </p>
         </section>
-    </ArticleStyled>
+    </Article>
   )
 }
 

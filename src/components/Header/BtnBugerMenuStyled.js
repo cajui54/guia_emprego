@@ -16,7 +16,7 @@ const BtnBugerMenuStyled = styled.div`
     .menu-btn__buger {
         width: 40px;
         height: 6px;
-        background-color: #64748b;
+        background-color: #fff;
         box-shadow: 0 2px 5px #a1a1aa;
         border-radius: 5px;
         transition:  all .5s ease-in-out;
@@ -27,7 +27,7 @@ const BtnBugerMenuStyled = styled.div`
         position: absolute;
         width: 40px;
         height: 6px;
-        background-color: #64748b;
+        background-color: #ffff;
         box-shadow: 0 2px 5px #a1a1aa;
         border-radius: 5px;
         transition:  all .5s ease-in-out;
