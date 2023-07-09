@@ -15,6 +15,13 @@ const datasJobs = () => {
         {name: 'Nube', site: 'https://www.nube.com.br/', path: 'https://www.nube.com.br/'},
         {name: 'Empregos.com.br', site: 'https://www.empregos.com.br/', path: 'https://www.empregos.com.br/?Origem=L532&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE1bi_eVkrZ3D_iQUk4KLkXW-XiFiYijXAHaAAPKtf64Xi1IRbUZfrcaAmr7EALw_wcB'},
         {name: 'Talent', site: 'https://talent.recrutei.com.br', path: 'https://talent.recrutei.com.br/netlinks/22896/signup'},   
+        {name: 'Atitude RH', site: 'https://www.atitudeempregos.com.br/', path: 'https://www.atitudeempregos.com.br/'},   
+        {name: 'Cintra RH', site: 'http://www.cintrarh.com.br/', path: 'http://www.cintrarh.com.br/'},   
+        {name: 'Conexão RH', site: 'https://conexaoempregos.com.br/', path: 'https://conexaoempregos.com.br/'},  
+        {name: 'Control RH', site: 'http://www.controlservicos.com.br/', path: 'http://www.controlservicos.com.br/'},  
+        {name: 'Cosmos RH', site: 'https://www.cosmosrh.com.br/v2/index.asp', path: 'https://www.cosmosrh.com.br/v2/index.asp'},
+        {name: 'BNE Empregos', site: 'https://www.bne.com.br/', path: 'https://www.bne.com.br/'},
+        {name: 'Eterna RH', site: 'https://www.eternarh.com.br/', path: 'https://www.eternarh.com.br/'},
     ]
 
     return {datas}
