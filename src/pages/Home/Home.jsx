@@ -1,4 +1,6 @@
 import React from 'react';
+import {MdWorkHistory} from 'react-icons/md'
+import {BsFillPlusCircleFill} from 'react-icons/bs'
 import { Link } from 'react-router-dom';
 import HomeStyle from './Homes.style';
 import datasJobs from '../../data/datasJobs';
@@ -37,21 +39,30 @@ const Home = () => {
                 {
                 <> 
                     <div>
-                        <dt>{datas[0].name}</dt>
+                        <dt>
+                            <MdWorkHistory className='icon-site'/>
+                            {datas[0].name}
+                        </dt>
                         <dd>
                             <a href={datas[0].path} target="_blank" rel="noopener noreferrer">{datas[0].site}</a>
                         </dd>
                     </div>
 
                     <div>
-                        <dt>{datas[2].name}</dt>
+                        <dt>
+                            <MdWorkHistory className='icon-site'/>
+                            {datas[2].name}
+                        </dt>
                         <dd>
                             <a href={datas[2].path} target="_blank" rel="noopener noreferrer">{datas[2].site}</a>
                         </dd>
                     </div>
 
                     <div>
-                        <dt>{datas[3].name}</dt>
+                        <dt>
+                            <MdWorkHistory className='icon-site'/>
+                            {datas[3].name}
+                        </dt>
                         <dd>
                             <a href={datas[3].path} target="_blank" rel="noopener noreferrer">{datas[3].site}</a>
                         </dd>
@@ -59,7 +70,10 @@ const Home = () => {
                 </>
                 }
             </dl>
-                <Link className='btnLink' to={'/jobs'}>Mais Sites</Link>
+                <Link className='btnLink' to={'/jobs'}>
+                    <span><BsFillPlusCircleFill/></span>
+                    Mais Sites
+                </Link>
         </section>
         <Wrappers/>
         <Articles/>    

@@ -3,13 +3,17 @@ import { Link } from 'react-router-dom';
 import {FaGlobe} from 'react-icons/fa6'
 import {IoArrowBackCircleOutline} from 'react-icons/io5'
 import datasJobs from '../../data/datasJobs';
+import { images } from '../../data/slideImages';
 import JobsSection from './Jobs.style';
+import HeroSection from '../../components/Hero/HeroSection';
 
 const SectionJobs = () => {
     const {datas} = datasJobs();
+    
   return (
     <JobsSection>
-        
+        <HeroSection img={images}/>
+
         <Link to='/' className='container-btn-back'>
             <div>
                 <IoArrowBackCircleOutline/>
@@ -42,6 +46,7 @@ const SectionJobs = () => {
                 </dl>
             </div>
         </div>
+
     </JobsSection>
   )
 }

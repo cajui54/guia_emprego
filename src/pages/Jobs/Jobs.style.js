@@ -3,6 +3,7 @@ import styled from "styled-components";
 const JobsSection = styled.div`
     overflow: hidden;
     position: relative;
+    
     .container-btn-back {
         position: fixed;
         bottom: 15px;
@@ -19,6 +20,10 @@ const JobsSection = styled.div`
         color: #fef08a;
         font-weight: bold;
         box-shadow: 0 0 8px #fef08a;
+        z-index: 3;
+    }
+    .group-title {
+        transform: translateY(-40px);
     }
     .container-btn-back div {
         transform: scale(1.8);

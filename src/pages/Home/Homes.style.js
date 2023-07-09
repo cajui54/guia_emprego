@@ -42,6 +42,15 @@ const HomeStyle = styled.main`
         padding: 10px;
         border-radius: 5px;
         font-weight: bold;
+        
+    }
+    .icon-site {
+        color: #fff;
+        margin-right: 20px;
+        transform: scale(1.5);
+    }
+    .btnLink span {
+        margin-right: 10px;
     }
     @media screen and (min-width: 768px) {
         & dl { 

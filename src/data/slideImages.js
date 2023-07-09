@@ -6,3 +6,4 @@ import img05 from '../imgs/work05.jpg';
 
 
 export const images = [img01, img02, img03, img04, img05];
+
