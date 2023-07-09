@@ -59,7 +59,7 @@ const Home = () => {
                 </>
                 }
             </dl>
-                <Link className='btnLink'>Mais Sites</Link>
+                <Link className='btnLink' to={'/jobs'}>Mais Sites</Link>
         </section>
         <Wrappers/>
         <Articles/>    
