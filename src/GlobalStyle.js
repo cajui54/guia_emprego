@@ -48,6 +48,16 @@ const GlobalStyle = createGlobalStyle`
             margin-left: 150px;
         }
     }
+    @media screen and (min-width: 768px) {
+        .info-section {
+            transform: translateY(-170px);
+            margin: 5px auto;
+        }
+
+        .group-title {
+            margin-left: 150px;
+        }
+    }
     
 `
 

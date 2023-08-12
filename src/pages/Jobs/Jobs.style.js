@@ -34,6 +34,9 @@ const JobsSection = styled.div`
     .container-jobs-sites {
         margin: 20px 0;
     }
+    .container-jobs-sites p {
+        margin-top: -25px;
+    }
     .container-jobs-sites p span{
         color: #fef08a;
         font-size: 20px;
@@ -79,6 +82,19 @@ const JobsSection = styled.div`
     }
     & dd a:hover { 
         color: #fef08a;
+    }
+    @media screen and (min-width: 1000px) {
+        .subtitle {
+            margin-left: 100px;
+            transform: translateY(-35px);
+        }
+        .subtitle p{
+            margin: 5px -140px;
+        }
+        & dl {
+            width: 50%;
+            margin: 50px;
+        }
     }
   
 `

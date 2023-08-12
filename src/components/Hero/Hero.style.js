@@ -37,6 +37,15 @@ const HeroStyled = styled.section`
             transform: translateX(-35px);
         }
     }
+    @media screen and (min-width: 1000px) {
+        .slideshow {
+        position: relative;
+        height: 500px;
+    }
+        & img {
+            height: 500px;
+        }
+    }
     
 
 `

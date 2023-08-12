@@ -92,6 +92,14 @@ const Wrapper = styled.section`
             flex-grow: 1;
         }
     }
+    @media screen and (min-width: 1000px) {
+        .group-title {
+            margin-left: 150px;
+        }
+        .card {
+            width: 30%;
+        }
+    }
 `
 
 export default Wrapper;

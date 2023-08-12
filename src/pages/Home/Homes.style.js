@@ -58,5 +58,11 @@ const HomeStyle = styled.main`
         }
         
     }
+    @media screen and (min-width: 1000px) {
+        .container-jobs-links {
+            margin-top: -100px;
+            width: 70%;
+        }
+    }
 `
 export default HomeStyle;
