@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 const HomeStyle = styled.main`
     overflow: hidden;
+
+    .info-section p{
+        margin: 20px 0;
+    }
+
     & dl {
      width: 90%;
      margin: 10px auto;

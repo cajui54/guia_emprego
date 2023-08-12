@@ -64,7 +64,9 @@ const Wrapper = styled.section`
         font-size: 150px;
         color: #fff;
     }
-
+    .group-title h2:nth-child(2){
+        transform: translate(150px, -19px) scale(1.9);
+    }
     @media screen and (min-width: 768px) {
         
         .group-title {

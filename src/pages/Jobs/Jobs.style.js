@@ -31,11 +31,15 @@ const JobsSection = styled.div`
     .container-btn-back span{
         font-size: 10px;
     }
+    .subtitle p{
+        margin: 10px 0;
+    }
     .container-jobs-sites {
-        margin: 20px 0;
+        margin: 30px 0;
     }
     .container-jobs-sites p {
-        margin-top: -25px;
+        margin-top: 10px;
+        
     }
     .container-jobs-sites p span{
         color: #fef08a;
@@ -87,9 +91,6 @@ const JobsSection = styled.div`
         .subtitle {
             margin-left: 100px;
             transform: translateY(-35px);
-        }
-        .subtitle p{
-            margin: 5px -140px;
         }
         & dl {
             width: 50%;
