@@ -12,6 +12,8 @@ const GlobalStyle = createGlobalStyle`
         color: #e5e7eb;
         background-color: #000;
     }
+
+
     .group-title {
         padding: 20px;
         margin-bottom: 20px;
@@ -27,38 +29,18 @@ const GlobalStyle = createGlobalStyle`
         transform: translate(100px, 5px) scale(1.5);
     }
 
-    .info-section {
-        margin: 50px auto;
-        font-size: 20px;
-    }
-    .info-section p {
-        padding: 10px 20px;
-        line-height: 30px;
-    }
     .icons-plus {
         margin: 0 5px;
     }
     @media screen and (min-width: 768px) {
-        .info-section {
-            width: 80%;
-            font-size: 25px;
-            transform: translateY(-25px);
-        }
+ 
         .group-title {
             margin-left: 150px;
         }
     }
-    @media screen and (min-width: 768px) {
-        .info-section {
-            transform: translateY(-170px);
-            margin: 5px auto;
-        }
 
-        .group-title {
-            margin-left: 150px;
-        }
-    }
-    
+
+
 `
 
 export default GlobalStyle;

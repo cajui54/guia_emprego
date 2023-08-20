@@ -14,7 +14,10 @@ const Wrappers = () => {
             <h2>Vagas de</h2>
             <h2><span>Empregos</span></h2>
         </div>
-
+        <p className="text-info">
+            Algumas vagas de empregos para se cadastrar
+        </p>
+        
             <div className="container-jobs">
                 <div className="card">
                     <div className="container-icon">

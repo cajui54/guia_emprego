@@ -46,6 +46,15 @@ const HeroStyled = styled.section`
             height: 500px;
         }
     }
+    @media screen and (min-width: 1500px) {
+        .group-title {
+            margin-left: 250px;
+        }
+        .group-title h2:nth-child(1) {
+            font-size: 50px;
+            transform: translate(-220px, 20px);
+        }
+    }
     
 
 `

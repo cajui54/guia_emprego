@@ -2,11 +2,15 @@ import styled from "styled-components";
 
 const HomeStyle = styled.main`
     overflow: hidden;
-
-    .info-section p{
-        margin: 20px 0;
+    .info-section {
+        text-align: center;
+        width: 85%;
+        margin: 10px auto;
+        padding: 2px;
+        font-weight: 400;
+        letter-spacing: 1.2px;
+        line-height: 30px;
     }
-
     & dl {
      width: 90%;
      margin: 10px auto;
@@ -69,5 +73,6 @@ const HomeStyle = styled.main`
             width: 70%;
         }
     }
+
 `
 export default HomeStyle;

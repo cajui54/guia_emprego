@@ -12,7 +12,6 @@ import Wrappers from '../../components/News/Wrappers';
 const Home = () => {
     const {datas} = datasJobs();
 
-    
   return (
     <HomeStyle>
         <Hero/>
@@ -26,15 +25,26 @@ const Home = () => {
                 acelere ainda mais a sua recolocação no mercado de trabalho
             </p>
         </article>
-
-
-
+        
         <section className='container-jobs-links'>
+        <amp-ad width="100vw" height="320"
+            type="adsense"
+            data-ad-client="ca-pub-7969741147484670"
+            data-ad-slot="6029636663"
+            data-auto-format="rspv"
+            data-full-width="">
+            <div overflow=""></div>
+        </amp-ad>
 
             <div className="group-title">
                 <h2>Sites de</h2>
                 <h2><span>Empregos</span></h2>
             </div>
+
+            <p className='text-info'>
+                Separamos alguns sites de empregos, que valem apena você
+                se cadastrar!
+            </p>
             
             <dl>
                 {

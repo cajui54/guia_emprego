@@ -67,6 +67,7 @@ const Wrapper = styled.section`
     .group-title h2:nth-child(2){
         transform: translate(150px, -19px) scale(1.9);
     }
+  
     @media screen and (min-width: 768px) {
         
         .group-title {
@@ -100,6 +101,16 @@ const Wrapper = styled.section`
         }
         .card {
             width: 30%;
+        }
+    }
+
+    @media screen and (min-width: 1500px) {
+        .group-title {
+            margin-left: 250px;
+        }
+        .group-title h2:nth-child(1) {
+            font-size: 50px;
+            transform: translate(-220px, 20px);
         }
     }
 `
