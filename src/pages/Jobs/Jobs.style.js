@@ -97,9 +97,26 @@ const JobsSection = styled.div`
         .info-job {
             font-size: 1.5em;
         }
+
+        .container-jobs-sites {
+            margin-top: -150px;
+        }
+        .container-jobs-sites p {
+            font-size: 1.2em;
+        }
+        .container-jobs-sites p span {
+            font-size: 25px;
+        }
+        & dl {
+            margin-left: 50px;
+            width: 520px;
+        }
     }
 
     @media screen and (min-width: 1000px) {
+        .container-jobs-sites p {
+            margin-left: 150px;
+        }
         .subtitle {
             margin-left: 100px;
             transform: translateY(-35px);
