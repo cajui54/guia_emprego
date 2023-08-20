@@ -20,9 +20,10 @@ const Home = () => {
        
             <p>
                 Procurar emprego ficou mais fácil,
-                aqui nós te direcionamos para agências de Empregos
+                aqui nós te direcionamos para Sites de Empregos
                 aumentando a sua possibilidade de conseguir sua tão sonhada
                 vaga de emprego, compartilhe com amigos e familiares.
+                acelere ainda mais a sua recolocação no mercado de trabalho
             </p>
         </article>
 
