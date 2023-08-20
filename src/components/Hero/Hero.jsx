@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="bgGradient">
 
           
-          <div className="group-title container-titles">
+          <div className="group-title">
                 <h1>Guia <span>Online</span></h1>
                 <h2>De <span>Empregos</span></h2>
             </div>

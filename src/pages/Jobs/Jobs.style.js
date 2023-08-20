@@ -38,23 +38,25 @@ const JobsSection = styled.div`
         margin: 30px 0;
     }
     .container-jobs-sites p {
-        margin-top: 10px;
-        
+        margin-left: 20px;
+    }
+    & p {
+        font-weight: bold;
+    }
+    .info-job {
+        transform: translateY(-20px);
+        font-size: 1rem;
     }
     .container-jobs-sites p span{
         color: #fef08a;
         font-size: 20px;
     }
-    .group-title p {
-        font-weight: bold;
-        transform: translate(25px, 5px);
-        width: 80%;
-        
-    }
+   
     & dl {
         overflow: hidden;
         margin: 50px auto;
         padding: 5px;
+        width: 95%;
     }
     & dt {
         background-color: #374151;
@@ -87,6 +89,16 @@ const JobsSection = styled.div`
     & dd a:hover { 
         color: #fef08a;
     }
+
+    @media screen and (min-width: 800px) {
+        .titles {
+            bottom: 140px;
+        }
+        .info-job {
+            font-size: 1.5em;
+        }
+    }
+
     @media screen and (min-width: 1000px) {
         .subtitle {
             margin-left: 100px;

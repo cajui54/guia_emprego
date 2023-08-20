@@ -10,7 +10,7 @@ import { CgWorkAlt } from 'react-icons/cg'
 const Wrappers = () => {
   return (
     <Wrapper>
-      <div className="group-title">
+      <div className="titles">
             <h2>Vagas de</h2>
             <h2><span>Empregos</span></h2>
         </div>
@@ -30,7 +30,7 @@ const Wrappers = () => {
                         <AiOutlinePlus className='icons-plus' />
                         Participar
                     </a>
-                    <span><FaLocationDot className="icon"/> Regiões de São Paulo </span>
+                    
                 </div>
 
                 <div className="card">
@@ -43,7 +43,7 @@ const Wrappers = () => {
                         <AiOutlinePlus className='icons-plus' />
                         Participar
                     </a>
-                    <span><FaLocationDot className="icon"/> Regiões de São Paulo </span>
+                    
                 </div>
 
                 <div className="card">
@@ -56,7 +56,7 @@ const Wrappers = () => {
                         <AiOutlinePlus className='icons-plus' />
                         Participar
                     </a>
-                    <span><FaLocationDot className="icon"/> Regiões de São Paulo</span>
+                    
                 </div>
 
                 <div className="card">
@@ -69,7 +69,6 @@ const Wrappers = () => {
                         <AiOutlinePlus className='icons-plus' />
                         Participar
                     </a>
-                    <span><FaLocationDot className="icon"/> Regiões de São Paulo </span>
                 </div>
             </div>
 

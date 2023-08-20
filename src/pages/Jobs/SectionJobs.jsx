@@ -22,10 +22,10 @@ const SectionJobs = () => {
         </Link>
         
        <div className="group-title">
-        <div className='subtitle'>
+        <div className='titles'>
             <h2> {datas.length} Sites de</h2>
             <h2><span>Empregos</span></h2>
-            <p>Para você se cadastrar</p>
+            <p className='info-job'>Para você se cadastrar</p>
         </div>
       
             <div className="container-jobs-sites">

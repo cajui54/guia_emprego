@@ -15,8 +15,7 @@ const Home = () => {
   return (
     <HomeStyle>
         <Hero/>
-        <article className='info-section'>
-       
+        <article className='article-main'>
             <p>
                 Procurar emprego ficou mais fácil,
                 aqui nós te direcionamos para Sites de Empregos
@@ -27,6 +26,7 @@ const Home = () => {
         </article>
         
         <section className='container-jobs-links'>
+            
         <amp-ad width="100vw" height="320"
             type="adsense"
             data-ad-client="ca-pub-7969741147484670"
@@ -36,8 +36,8 @@ const Home = () => {
             <div overflow=""></div>
         </amp-ad>
 
-            <div className="group-title">
-                <h2>Sites de</h2>
+            <div className="titles">
+                <h2>Sites <span>de</span></h2>
                 <h2><span>Empregos</span></h2>
             </div>
 

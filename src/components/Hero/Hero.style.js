@@ -16,45 +16,65 @@ const HeroStyled = styled.section`
         position: absolute;
         bottom: 0px;
     }
-    .container-titles {
-        padding: 20px;
-        margin-top: 150px;
+    .group-title {
+        position: absolute;
+        top: 150px;
+        left: 50px;
     }
-    .container-titles h2 {
-        transform: translate(150px, 5px) scale(1.8);
+    .group-title h1 {
+        font-size: 2em;
+    }
+    .group-title h2 {
+        font-size: 2.5em;
+        transform: translate(2px, -14px);
+    }
+    .group-title h1 span, .group-title h2 span{
+        color: #fef08a;
+    }
+    @media screen and (max-width: 280px) {
+        .group-title {
+            left: 15px;
+        }
+        .group-title h1 {
+        font-size: 1.5em;
+    }
+    .group-title h2 {
+        font-size: 1.9em;
+        transform: translate(2px, -10px);
+    }
     }
     @media screen and (min-width: 820px) {
         position: relative;
         .slideshow {
             height: 350px;
         }
-        .container-titles {
-            width: 530px;
-            margin-left: 100px;
-            margin-top: 250px;
-        }
-        .container-titles h1 {
-            transform: translateX(-35px);
-        }
+        .group-title {
+        top: 250px;
+        left: 50px;
     }
-    @media screen and (min-width: 1000px) {
+
+    }
+    @media screen and (min-width: 900px) {
         .slideshow {
-        position: relative;
-        height: 500px;
-    }
+            position: relative;
+            height: 500px;
+        }
         & img {
             height: 500px;
         }
-    }
-    @media screen and (min-width: 1500px) {
         .group-title {
-            margin-left: 250px;
+            top: 350px;
+            left: 70px;
         }
-        .group-title h2:nth-child(1) {
-            font-size: 50px;
-            transform: translate(-220px, 20px);
+        .group-title h1 {
+            font-size: 3em;
+        }
+        .group-title h2 {
+            font-size: 2.9em;
+            
         }
     }
+
     
 
 `

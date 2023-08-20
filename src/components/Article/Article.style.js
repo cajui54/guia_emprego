@@ -16,19 +16,24 @@ const Article = styled.article`
         color: #fef08a;
         margin: 10px 0;
     }
-    & p {
-        line-height: 25px;
-    }
+ 
     & a {
         color: #fef08a;
     }
+
     @media screen and (min-width: 768px) {
         width: 80%;
     }
     & p {
         font-size: 20px;
         letter-spacing: 1.1px;
-        line-height: 30px;
+        line-height: 45px;
+    }
+    @media screen and (min-width: 900px) {
+        & p {
+            font-size: 1.5em;
+            line-height: 55px;
+        }
     }
 
 `

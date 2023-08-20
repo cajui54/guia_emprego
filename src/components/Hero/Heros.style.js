@@ -9,7 +9,7 @@ const Heros = styled.div`
     }
     .background {
         width: 100%;
-        height: 100%px;
+        height: 100%;
         background: linear-gradient(rgba(255,255, 255, 0.1), rgba(0, 0, 0, .9));
         position: absolute;
         top: 0;

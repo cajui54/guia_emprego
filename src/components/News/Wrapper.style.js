@@ -1,116 +1,74 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-    width: 90%;
-    padding: 10px;
-    margin: 50px auto;
-
+    .titles {
+        margin-top: 85px;
+    }
     .container-jobs {
-        margin: 50px auto;
+        width: 95%;
+        margin: 10px auto;
     }
     .card {
-        margin-top: 50px;
-        border: 1px solid #fef08a;
-        padding: 20px;
+        width: 90%;
+        margin: 30px auto;
+        height: 400px;
         border-radius: 5px;
-    }
-    .card h3 {
-        text-align: center;
-        margin-top: -50px;
-        margin-bottom: 20px;
-        transform: scale(1.2);
-        font-size: 20px;
-        color: #fef08a;
-    }
-    .card p {
-        line-height: 30px;
-    }
-    .card:nth-child(2) h3 {
-        transform: scale(.9) translateY(20px);
-    }
-    & a {
-        display: block;
-        background-color: #374151;
-        font-weight: bold;
-        text-align: center;
-        padding: 10px 0;
-        width: 200px;
-        margin-top: 10px;
-        text-decoration: none;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        transition: all .5s ease-in;
-    }
-    & a:hover {
-        transform: scale(1.1);
-        opacity: .8;
-    }
-    
-    & span {
-        margin-top: 20px;
-        display: block;
-        padding: 10px;
-        font-weight: bold;
-    }
-    .icon {
-        color: #06b6d4;
-    }
-    .btnMore {
-        margin: 5px auto;
+        border: 3px solid #374151;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .container-icon {
+        padding: 20px 0;
+        font-size: 100px;
         text-align: center;
-        font-size: 150px;
+        color: #fef08a;
+    }
+    .card h3 {
+        color: #fef08a;
+        text-align: center;
+        transform: translateY(-40px) scale(1.2);
+    }
+    .card p {
+        width: 90%;
+        text-align: center;
+        margin: 5px auto;
+        transform: translateY(-40px);
+    }
+    .card a {
+        background-color: #374151;
+        width: 150px;
+        padding: 5px;
+        margin: 10px auto;
+        text-decoration: none;
         color: #fff;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 50px;
     }
-    .group-title h2:nth-child(2){
-        transform: translate(150px, -19px) scale(1.9);
+    @media screen and (min-width: 540px){ 
+        .card { 
+            width: 60%;
+        }
     }
-  
-    @media screen and (min-width: 768px) {
-        
-        .group-title {
-            margin-top: 50px;
-            margin-left: 80px;
-        }
-        .group-title h2:nth-child(2) {
-            transform: translate(220px, -19px) scale(1.9);
-        }
 
+    @media screen and (min-width: 768px){
         .container-jobs {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            transform: translateY(-90px);
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
         }
-        .card {
-            width: 45%;
-            height: 500px;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-        }
-        .card p {
-            flex-grow: 1;
+        .card { 
+            width: 90%;
         }
     }
-    @media screen and (min-width: 1000px) {
-        .group-title {
-            margin-left: 150px;
+    @media screen and (min-width: 1000px){
+        .container-jobs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
         }
-        .card {
-            width: 30%;
-        }
-    }
-
-    @media screen and (min-width: 1500px) {
-        .group-title {
-            margin-left: 250px;
-        }
-        .group-title h2:nth-child(1) {
-            font-size: 50px;
-            transform: translate(-220px, 20px);
+        
+        .card { 
+            width: 90%;
         }
     }
 `

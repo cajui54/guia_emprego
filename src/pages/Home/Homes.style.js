@@ -2,15 +2,17 @@ import styled from "styled-components";
 
 const HomeStyle = styled.main`
     overflow: hidden;
-    .info-section {
-        text-align: center;
-        width: 85%;
-        margin: 10px auto;
-        padding: 2px;
-        font-weight: 400;
-        letter-spacing: 1.2px;
+
+    .article-main {
+        width: 80%;
+        margin: 5px auto;
+        margin-bottom: 30px;
+        font-size: 1.2em;
+    }
+    .article-main p {
         line-height: 30px;
     }
+
     & dl {
      width: 90%;
      margin: 10px auto;
@@ -61,7 +63,18 @@ const HomeStyle = styled.main`
     .btnLink span {
         margin-right: 10px;
     }
+    @media screen and (max-width: 280px) {
+        .article-main {
+            font-size: 1em;
+        }
+    }
     @media screen and (min-width: 768px) {
+        .article-main {
+            font-size: 1.5rem;
+        }
+        .article-main p {
+            line-height: 40px;
+        }
         & dl { 
             width: 65%;
         }

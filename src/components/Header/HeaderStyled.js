@@ -1,15 +1,19 @@
 import styled from "styled-components";
 
 const HeaderStyled = styled.header`
+
+    padding: 0 5px;
     width: 100%;
     height: 70px;
     background-color: black;
     //background-color: #374151;
+    
     box-shadow: rgba(0,0,0,.15) 0px -2px 10px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    
     a {
         font-family: 'Montserrat', sans-serif, Arial, Helvetica;
         text-decoration: none;
