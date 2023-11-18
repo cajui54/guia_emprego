@@ -4,7 +4,7 @@ import Article from './Article.style'
 const Articles = () => {
   return (
     <Article>
-        <h1>
+        <h1 id='moreInfo'>
             <span>Redes Sociais para encontrar vagas de emprego.</span>
         </h1>
 

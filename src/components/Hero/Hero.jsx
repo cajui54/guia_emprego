@@ -16,7 +16,7 @@ const Hero = () => {
     }, 5000);
 
   return (
-    <HeroStyled>
+    <HeroStyled id='home'>
       <div className="slideshow">
         <img src={images[count]} alt='emprego'/>
 

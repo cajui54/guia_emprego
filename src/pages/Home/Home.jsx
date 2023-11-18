@@ -25,7 +25,7 @@ const Home = () => {
             </p>
         </article>
         
-        <section className='container-jobs-links'>
+        <section className='container-jobs-links' id='siteJobs'>
             
         <amp-ad width="100vw" height="320"
             type="adsense"

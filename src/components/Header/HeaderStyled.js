@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 const HeaderStyled = styled.header`
-
+    position: relative;
     padding: 0 5px;
     width: 100%;
     height: 70px;
     background-color: black;
-    //background-color: #374151;
     
     box-shadow: rgba(0,0,0,.15) 0px -2px 10px 0px;
     display: flex;
@@ -14,7 +13,7 @@ const HeaderStyled = styled.header`
     justify-content: space-between;
     position: relative;
     
-    a {
+    .containerLogo {
         font-family: 'Montserrat', sans-serif, Arial, Helvetica;
         text-decoration: none;
         margin-left: 20px;
@@ -24,7 +23,7 @@ const HeaderStyled = styled.header`
         cursor: pointer;
         transition: all .5s ease-in-out;
     }
-    a:hover {
+    .containerLogo:hover {
         color: #64748b;
         border-left: 3px solid #64748b;
     }
@@ -40,9 +39,9 @@ const HeaderStyled = styled.header`
         font-size: 13px;
     }
 
-    @media screen and (min-width: 820px) {
-        
+    @media screen and (min-width: 950px) {
+        position: fixed;
+        z-index: 2;
     }
-    
 `
 export default HeaderStyled;

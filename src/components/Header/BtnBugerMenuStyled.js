@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const BtnBugerMenuStyled = styled.div`
+
     .menu-btn {
         position: relative;
         display: flex;
@@ -51,6 +52,8 @@ const BtnBugerMenuStyled = styled.div`
 .menu-btn.open .menu-btn__buger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
-
+@media screen and (min-width: 950px) {
+  display: none;
+}
 `
 export default BtnBugerMenuStyled;
