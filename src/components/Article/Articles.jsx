@@ -3,8 +3,8 @@ import Article from './Article.style'
 
 const Articles = () => {
   return (
-    <Article>
-        <h1 id='moreInfo'>
+    <Article id='moreInfo'>
+        <h1>
             <span>Redes Sociais para encontrar vagas de emprego.</span>
         </h1>
 

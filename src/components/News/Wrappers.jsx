@@ -9,8 +9,8 @@ import { CgWorkAlt } from 'react-icons/cg'
 
 const Wrappers = () => {
   return (
-    <Wrapper>
-      <div className="titles" id='categoria'>
+    <Wrapper id='categoria'>
+      <div className="titles">
             <h2>Vagas de</h2>
             <h2><span>Empregos</span></h2>
         </div>
