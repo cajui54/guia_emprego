@@ -7,7 +7,7 @@ export const NavBar = styled.nav`
     opacity: 0;
     z-index: 2;
     width: 100%;
-    height: 45rem;
+    height: ${(props) => `${props.windowSizeHeight - 76}px`};
     background-color: #020617;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ export const NavBar = styled.nav`
         width: 100%;
         display: block;
         border: none;
-        padding: 3rem 0;
+        padding: 2rem 0;
         margin: 5px 0;
         text-align: center;
         text-decoration: none;

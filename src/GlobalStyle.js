@@ -55,6 +55,7 @@ const GlobalStyle = createGlobalStyle`
     .openOrCloseMenu {
         left: 0;
         opacity: 1;
+        overflow: hidden;
     }
 
     @media screen and (max-width: 280px) {

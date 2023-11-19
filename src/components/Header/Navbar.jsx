@@ -1,8 +1,12 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import { Link } from 'react-scroll';
 import * as Style from './Navbar.css';
 const Navbar = ({setMenuOpen, setClassOpen, openMenuNav, setOpenMenu}) => {
-  const [type, setType] = useState('');
+    const [windowSizeHeight, setWindowSizeHeight] = useState(window.innerHeight);
+
+    useEffect(() => {
+      setWindowSizeHeight(window.innerHeight);
+    }, [window.innerHeight])
     const options = [
       {title: 'Home', linkTo: 'home'},
       {title: 'Sites de Empregos', linkTo: 'siteJobs'},
@@ -20,11 +24,10 @@ const Navbar = ({setMenuOpen, setClassOpen, openMenuNav, setOpenMenu}) => {
       setOpenMenu('');
     }
     
-    const handleSetActive = (to) => {
-      setType(to);
-    }
+    const handleSetActive = (to) => to;
+  
   return (
-    <Style.NavBar className={openMenuNav}>
+    <Style.NavBar className={openMenuNav} windowSizeHeight={windowSizeHeight}>
         {
           options &&  options.map((option, index) => ( 
             <Link key={index} to={option.linkTo}
