@@ -87,8 +87,8 @@ const Home = () => {
                 </Link>
         </section>
         <Wrappers/>
-        <Articles/>    
-                
+        <Articles/> 
+        
     </HomeStyle>
   )
 }
