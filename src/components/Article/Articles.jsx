@@ -2,6 +2,7 @@ import React from 'react'
 import Article from './Article.style'
 
 const Articles = () => {
+
   return (
     <Article id='moreInfo'>
         <h1>
