@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Wrapper from "./Wrapper.style"
-import { FaComputer, FaComputerMouse, FaLaptopCode} from "react-icons/fa6";
+import { FaComputer, FaComputerMouse, FaLaptopCode, FaUserTie} from "react-icons/fa6";
 import  {AiOutlinePlus} from 'react-icons/ai'
 import { CgWorkAlt } from 'react-icons/cg'
 
@@ -67,8 +67,33 @@ const Wrappers = () => {
                         Participar
                     </a>
                 </div>
+
+                <div className="card">
+                    <div className="container-icon">
+                        <FaUserTie />
+                    </div>
+                    <h3> Pessoa Desenvolvedora Fullstack</h3>
+                    <p>Desenvolver soluções técnicas de média complexidade, através do desenvolvimento de requisitos de softwares utilizando-se das tecnologias envolvidas no projeto...</p>
+                    <a href="https://www.vagas.com.br/vagas/v2622477/pessoa-desenvolvedora-fullstack-pleno?ci=50575446&fnt=18&ne=0&utm_campaign=algoritimo-a&utm_content=20240405&utm_medium=email&utm_posicao=3&utm_quantidade_vagas=4&utm_source=recomendacao&utm_term=2622477" target="_black">
+                        <AiOutlinePlus className='icons-plus' />
+                        Participar
+                    </a>
+                </div>
+
+                <div className="card">
+                    <div className="container-icon">
+                        <FaUserTie />
+                    </div>
+                    <h3> Programador C#</h3>
+                    <p>Analisar e corrigir problemas; Apontar possíveis falhas, propor soluções, melhorias e novas funcionalidades nos sistemas da empresa...</p>
+                    <a href="https://www.postavagas.com/vaga/18564890?utm_source=adzuna&utm_medium=adzuna" target="_black">
+                        <AiOutlinePlus className='icons-plus' />
+                        Participar
+                    </a>
+                </div>
             </div>
 
+            
         {/*<Link className="btnMore"> <AiOutlinePlus className='icons-plus'/> Mais Vagas</Link>*/}
     </Wrapper>
   )
